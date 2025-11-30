@@ -30,7 +30,7 @@ override.tf.json
 # SSH Keys
 ############################
 key_pair/*
-!key_pair/*.pub   # allow public key only
+!key_pair/.gitkeep
 
 ############################
 # Ansible 
